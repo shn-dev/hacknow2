@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "752048315021",
+    "firebase_url": "https://hacknow-b9dc4.firebaseio.com",
+    "project_id": "hacknow-b9dc4",
+    "storage_bucket": "hacknow-b9dc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752048315021:android:8d7172630d6671ce17a0c4",
+        "android_client_info": {
+          "package_name": "com.example.hacknow2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752048315021-h8d15hh9k16gjj2gg5f3kc2jkitgb6fm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hacknow2",
+            "certificate_hash": "8b4bf2709f743331de57833dd7453a7b8afb45e3"
+          }
+        },
+        {
+          "client_id": "752048315021-6t155mohu5v3pq396h7fvv790t848ant.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnBpQGdesSppaD9K4f8Umq5UyYRNH8MBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752048315021-6t155mohu5v3pq396h7fvv790t848ant.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

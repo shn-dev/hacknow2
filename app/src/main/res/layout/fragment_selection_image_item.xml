@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="4dp"
+    android:background="@color/tw__composer_white">
+<RelativeLayout
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/example_message"
+        android:paddingBottom="16dp"
+        android:scaleType="center" />
+    <LinearLayout
+        android:layout_below="@id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:tint="@color/tw__composer_black"
+                android:layout_centerVertical="true"
+                android:id="@+id/shareIV"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_share_black_24dp"/>
+            <TextView
+                android:paddingStart="8dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/shares"
+                android:layout_toEndOf="@id/shareIV"
+                android:hint="@string/numzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:paddingStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:tint="@color/tw__composer_black"
+                android:layout_centerVertical="true"
+                android:id="@+id/mediaIV"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_tv_black_24dp"/>
+            <TextView
+                android:paddingStart="8dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/media"
+                android:layout_toEndOf="@id/mediaIV"
+                android:hint="@string/numzero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>

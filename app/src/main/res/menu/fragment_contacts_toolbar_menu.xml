@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".phase1.OpeningActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_sort_by_alpha_white_24dp"
+        android:title="@string/sort"
+        app:showAsAction="always"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/proceed"
+        android:title="@string/proceed"
+        android:icon="@drawable/ic_check_white_24dp"
+        app:showAsAction="always"/>
+</menu>

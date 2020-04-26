@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">hacknow2</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">527278747958811</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb527278747958811</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">0VbghcXpvuoY3k2wGkAwSkVGA</string>
+    <string name="twitter_consumer_secret" translatable="false">ruRsFzHqCIzEE7UaL3N6PGMPjzgV0JtbreDR6Ink5qXszkuQ1i</string>
+
+    <string name="sort">Sort</string>
+    <string name="proceed">Go</string>
+    <string name="title_activity_selection">SelectionActivity</string>
+    <string name="tab_text_1">Popular</string>
+    <string name="tab_text_2">Custom</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="publicprivate">Make Public</string>
+    <string name="postbodytooltip">Write some text or share a link!</string>
+    <string name="post">POST</string>
+    <string name="EmptyFields">Please fill out all fields!</string>
+    <string name="numzero">0</string>
+    <string name="example_message">Example Message</string>
+    <string name="BadURLMessage">An image post must be ONLY a URL to the image!</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="SENDTEXT">SEND_TEXT</string>
+    <string name="NoContactsSelected">You haven\'t selected any people to send content to. Please go back and select some people!</string>
+
+    <string-array name="postoptions">
+        <item>Select content type</item>
+        <item>Text</item>
+        <item>Image</item>
+    </string-array>
+
+</resources>
