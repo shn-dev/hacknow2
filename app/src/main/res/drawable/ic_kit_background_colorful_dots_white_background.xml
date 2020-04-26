@@ -7,6 +7,9 @@
     <clip-path
         android:pathData="M0,0h375v812h-375z"/>
     <path
+        android:pathData="M-13,0h434v826h-434z"
+        android:fillColor="#FFFFFF"/>
+    <path
         android:fillColor="#FF000000"
         android:pathData="M346,274L291,416"
         android:strokeLineJoin="miter"

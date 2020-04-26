@@ -10,7 +10,7 @@
 
     <style name="FirebaseLoginTheme" parent="FirebaseUI">
 
-        <item name="android:windowBackground">@drawable/ic_kit_background_colorful_dots</item>
+        <item name="android:windowBackground">@drawable/ic_kit_background_colorful_dots_white_background</item>
         <item name="android:editTextColor">#ffffff</item>
         <item name="android:textColorPrimary">#ffffff</item>
         <item name="android:textColorSecondary">#ffffff</item>
